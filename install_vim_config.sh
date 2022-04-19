@@ -8,3 +8,5 @@ if [ -f ~/.vimrc]; then
 fi
 
 cp vimrc ~/.vimrc
+
+vim +PluginInstall +qall
